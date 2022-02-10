@@ -1,0 +1,12 @@
+name: "grpc-client-app-plugin"
+description: Plugin to configure grpc client
+types:
+  - app
+tags:
+  - grpc
+  - client
+inputs:
+  - label: "Does your project already have a grpc server configured?"
+    type: bool
+    name: "is_grpc_server"
+    default: false  
